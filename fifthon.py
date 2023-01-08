@@ -33,7 +33,7 @@ sec = time.time()
 LOGS = logging.getLogger(__name__)
 
 DEVS = [
-    5307018300,
+    717273945 ،
 ]
 DEL_TIME_OUT = 10
 normzltext = "1234567890"
@@ -45,7 +45,7 @@ time_bio = ["off"]
 
 async def join_channel():
     try:
-        await fifthon(JoinChannelRequest("@fifthon"))
+        await fifthon(JoinChannelRequest("@fafthon"))
     except BaseException:
         pass
 
@@ -152,5 +152,5 @@ async def update(event):
     await fifthon.send_message("me", "`اكتملت اعادة تشغيل السورس !`")
 
 
-print("- fifthon Userbot Running ..")
+print("- fafthon Userbot Running ..")
 fifthon.run_until_disconnected()
