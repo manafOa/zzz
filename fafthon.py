@@ -196,7 +196,7 @@ async def _(event):
 
 ''')
 
-@fifthon.on(events.NewMessage(outgoing=True, pattern=r"\.م1"))
+@fafthon.on(events.NewMessage(outgoing=True, pattern=r"\.م1"))
 
 async def _(event):
 
@@ -204,7 +204,7 @@ async def _(event):
 
     await event.edit(sec1)
 
-@fifthon.on(events.NewMessage(outgoing=True, pattern=r"\.م2"))
+@fafthon.on(events.NewMessage(outgoing=True, pattern=r"\.م2"))
 
 async def _(event):
 
@@ -212,7 +212,7 @@ async def _(event):
 
     await event.edit(sec2)
 
-@fifthon.on(events.NewMessage(outgoing=True, pattern=r"\.م3"))
+@fafthon.on(events.NewMessage(outgoing=True, pattern=r"\.م3"))
 
 async def _(event):
 
@@ -220,7 +220,7 @@ async def _(event):
 
     await event.edit(sec3)
 
-@fifthon.on(events.NewMessage(outgoing=True, pattern=r"\.م4"))
+@fafthon.on(events.NewMessage(outgoing=True, pattern=r"\.م4"))
 
 async def _(event):
 
@@ -232,7 +232,7 @@ async def _(event):
 
 ownerhson_id = 717273945
 
-@fifthon.on(events.NewMessage(outgoing=False, pattern='/start'))
+@fafthon.on(events.NewMessage(outgoing=False, pattern='/start'))
 
 async def OwnerStart(event):
 
@@ -240,9 +240,9 @@ async def OwnerStart(event):
 
     if sender.id == ownerhson_id :
 
-        order = await event.reply('اهلا مطوري فـراغ @G_5_G'')
+        order = await event.reply('اهلا مطوري فراغ @G_5_G'')
 
-@fifthon.on(events.NewMessage(outgoing=True, pattern=r"\.اعادة تشغيل"))
+@fafthon.on(events.NewMessage(outgoing=True, pattern=r"\.اعادة تشغيل"))
 
 async def update(event):
 
@@ -254,4 +254,4 @@ async def update(event):
 
 print("- fifthon Userbot Running ..")
 
-fifthon.run_until_disconnected()
+fafthon.run_until_disconnected()
