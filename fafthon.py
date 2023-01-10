@@ -252,6 +252,6 @@ async def update(event):
 
     await fifthon.send_message("me", "`اكتملت اعادة تشغيل السورس !`")
 
-print("- fifthon Userbot Running ..")
+print("- fafthon Userbot Running ..")
 
 fafthon.run_until_disconnected()
