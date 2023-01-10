@@ -25,8 +25,8 @@ fifthon.start()
 
 y = datetime.datetime.now().year
 m = datetime.datetime.now().month
-dayy  =  datetime . التاريخ والوقت . الآن (). يوم
-اليوم  =  التاريخ والوقت . التاريخ والوقت . الآن (). strftime ( "٪ A" )
+dayy = datetime.datetime.now().day
+day = datetime.datetime.now().strftime("%A")
 m9zpi = f"{y}-{m}-{dayy}"
 sec = time.time()
 
